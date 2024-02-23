@@ -1,8 +1,49 @@
-# React + Vite
+# Soller Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![soller Screenshot](./img/home.png)
 
-Currently, two official plugins are available:
+This application allows users to explore a static brand website. It has been developed using technologies such as React and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Run?
+
+1. Download or clone the application:
+
+    ```
+    git clone https://github.com/Rekl0w/soller.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```
+    cd soller
+    ```
+
+3. Install dependencies:
+
+    ```
+    npm install
+    ```
+
+4. Run the app.
+
+    ```
+    npm run dev
+    ```
+
+5. The magnifico application will start.
+
+## Technologies Used
+
+- React
+- Javascript
+- Tailwind
+- Vite
+- Glide.js
+  
+## Screenshots
+
+![soller Screenshot](./img/full.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
