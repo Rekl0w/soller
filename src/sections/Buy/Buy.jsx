@@ -6,7 +6,7 @@ export default function Buy() {
       >
         <div className="flex justify-between items-center mt-20">
           <div>
-            <p className="text-[#D97706] text-2xl font-medium">
+            <p className="text-amber-300 text-2xl font-medium">
               Get the Sun to power your home
             </p>
             <h1 className="text-7xl font-semibold text-white leading-normal">
