@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Glide from "@glidejs/glide";
 
 export default function Carousel() {
-  const [hoverR, setHoverR] = useState(true);
-  const [hoverL, setHoverL] = useState(true);
 
   useEffect(() => {
     const glide = new Glide(".glide", {
@@ -136,6 +134,45 @@ export default function Carousel() {
               </li>
             ))}
           </ul>
+        </div>
+        <div
+          className="glide__arrows w-full flex gap-5 justify-start absolute bottom-0 left-52 right-0 mb-10"
+          data-glide-el="controls"
+        >
+          <button
+            className="glide__arrow glide__arrow--left"
+            data-glide-dir="<"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-16 h-16 rounded-full border-2 border-[#FCD24C] text-[#FCD24C] px-2 py-2 hover:bg-[#FCD24C] hover:text-[#884917] transition duration-300 ease-in-out"
+            >
+              <path d="M15 18l-6-6 6-6" />
+            </svg>
+          </button>
+          <button
+            className="glide__arrow glide__arrow--right"
+            data-glide-dir=">"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-16 h-16 rounded-full border-2 border-[#FCD24C] text-[#FCD24C] px-2 py-2 hover:bg-[#FCD24C] hover:text-[#884917] transition duration-300 ease-in-out"
+            >
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
