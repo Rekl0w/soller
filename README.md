@@ -30,7 +30,7 @@ This application allows users to explore a static brand website. It has been dev
     npm run dev
     ```
 
-5. The magnifico application will start.
+5. The soller application will start.
 
 ## Technologies Used
 
